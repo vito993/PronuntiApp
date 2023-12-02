@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1056480663109",
+    "firebase_url": "https://pronuntiapp-73771-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pronuntiapp-73771",
+    "storage_bucket": "pronuntiapp-73771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056480663109:android:4ca7f620b2129d02a3352c",
+        "android_client_info": {
+          "package_name": "com.firefighters.pronuntiapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE5JLgqvgr_3GTdx1SIqxh-H-qYuqtZN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
