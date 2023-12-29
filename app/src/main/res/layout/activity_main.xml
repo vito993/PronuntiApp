@@ -75,6 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="30dp"/>
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginBtn"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="Login"
@@ -84,12 +85,29 @@
         <View
             android:layout_width="wrap_content"
             android:layout_height="20dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:text="Non sei Registrato? Registrati"
-            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:gravity="right">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Non sei Registrato?"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/goToSignupButton"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="right"
+                android:text="registrati"
+                android:textColor="#0000FF"
+                android:textStyle="bold"
+                app:iconTint="@color/white"
+                app:rippleColor="@color/white" />
+        </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
 
